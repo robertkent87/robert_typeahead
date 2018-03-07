@@ -1,0 +1,7 @@
+name = Typeahead Demo
+description = Integrates autocomplete of US States
+package = Typeahead Demo
+core = 7.x
+scripts[] = typeahead.bundle.min.js
+scripts[] = robert_typeahead.js
+stylesheets[all][] = typeahead.css

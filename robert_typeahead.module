@@ -1,0 +1,9 @@
+<?php
+
+	function robert_typeahead_init() {
+		$settings = [
+			'basePath' => drupal_get_path('module', 'robert_typeahead'),
+		];
+
+		drupal_add_js(['robert_typeahead' => $settings], 'setting');
+	}
